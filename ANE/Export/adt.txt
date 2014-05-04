@@ -1,1 +1,0 @@
-﻿adt -package -target ane com.qipy.anesdk.android.ane extension_android.xml -swc HelloAne.swc -platform Android-ARM -C ./Android-ARM  . -platform default -C ./default library.swf
