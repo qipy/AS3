@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <flex version="4.7.0" build="348902" minimumSupportedVersion="3.0.0"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="348902"/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/qipy/anesdk/AneEvents" mod="1399098045691">
+                <def id="com.qipy.anesdk:AneEvents"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/qipy/anesdk/AneSDK" mod="1398738030162">
+                <def id="com.qipy.anesdk:AneSDK"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.utils:Dictionary" type="s"/>
+                <dep id="int" type="e"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="8a7290028a4edee5ef735aaf699a81e037324a315f6f5bd3caaed2e23bb99e8e"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>
